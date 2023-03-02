@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+
+const main = require('../src/cli.js').default;
+
+main().then(x => console.log(x)).catch(e => console.error(e));
